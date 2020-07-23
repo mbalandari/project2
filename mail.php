@@ -17,7 +17,7 @@ $email = $_POST['contact-pref'];
 
 
 $content="From: $name";
-$recipient = "maz@thecoder.com";
+$recipient = "mazyar.music@yandex.com";
 $subject = "My subject";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
